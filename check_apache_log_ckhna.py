@@ -31,7 +31,7 @@ def main_menu():
         else: 
             print("Invalid option. Please try again")
 
-#Display susccessful request menu and proper navigation
+#Display successful request menu and proper navigation
 def successful_request_menu():
     while True:
         display_title("Apache Log Analyser - Successful Requests Menu")
@@ -107,7 +107,7 @@ if __name__ == '__main__':
             print("Error: No filenames provided.")
             sys.exit(1)
 #Condition 3: With -d or --default with filenames provided after
-#Print all filenames and execute the "How many total requesrs (Code200)".
+#Print all filenames and execute the "How many total requests (Code200)".
         load_logs(arg[1:])
         total_requests_200()
 #Condition 4: Filenames provided, print all filenames and main menu
